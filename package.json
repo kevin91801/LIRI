@@ -1,0 +1,25 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin91801/LIRI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevin91801/LIRI/issues"
+  },
+  "homepage": "https://github.com/kevin91801/LIRI#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.5",
+    "request": "^2.81.0",
+    "spotify": "^0.3.0",
+    "spotify-web-api-js": "^0.22.0"
+  }
+}
