@@ -66,7 +66,7 @@ switch(action) {
 
 function history() {
     
-        fs.appendFile("log.txt",action + " " + title, function(err) {
+        fs.appendFile("\nlog.txt",action + " " + title, function(err) {
             if (err) {
                 return console.log(err);
             }
